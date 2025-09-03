@@ -33,7 +33,7 @@ A decentralized personal health monitoring and analysis platform built on the In
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/tufstraka/ai-health-companion
+git clone https://github.com/SanatanSuraj/Afya
 cd ai-health-companion
 ```
 
@@ -52,19 +52,6 @@ npm install
 dfx start --background
 dfx deploy
 ```
-Make sure you're environment variables look like this. 
-Replace NEXT_PUBLIC_II_CANISTER_ID and NEXT_PUBLIC_CANISTER_ID with the canister id's you get after deploying the backend on the local Internet Computer replica.
-
-```bash
-NEXT_PUBLIC_AZURE_ENDPOINT=https://ai-keithkadima3970ai074778735402.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview
-NEXT_PUBLIC_AZURE_MODEL_VERSION=2024-08-01-preview
-NEXT_PUBLIC_AZURE_DEPLOYMENT_ID=gpt-4o
-NEXT_PUBLIC_NODE_ENV=development
-NEXT_PUBLIC_II_CANISTER_ID=aovwi-4maaa-aaaaa-qaagq-cai
-NEXT_PUBLIC_CANISTER_ID=a4tbr-q4aaa-aaaaa-qaafq-cai
-NEXT_PUBLIC_AZURE_API_KEY=EmJXpfa4gdMf7a4D7Mb5WhPNCJhwqHAWJPH1Rb9ltBzmqLMq56GtJQQJ99ALACYeBjFXJ3w3AAAAACOG1Yfo
-```
-
 ## Screenshots
 
 ### Home
@@ -113,13 +100,6 @@ NEXT_PUBLIC_AZURE_API_KEY=EmJXpfa4gdMf7a4D7Mb5WhPNCJhwqHAWJPH1Rb9ltBzmqLMq56GtJQ
 - Access control for personal health records
 - Secure API endpoints
 
-## 🤝 Contributing
-
-Contributions are welcome! 
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
